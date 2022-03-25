@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Fjalla+One&family=Fredoka:wght@300&family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 695px)"
+      href="mobile.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html"
+          ><h1>Funky <span>Lamps</span></h1></a
+        >
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a id="current" href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2 id="contact">Our Location</h2>
+      <section id="location">
+        <img src="images/location.jpg" alt="location" />
+        <p>
+          We currently reside at Kungsholmsgatan 3, 115 55 Stockholm. Our phone
+          number is 08-454545
+        </p>
+      </section>
+
+      <h2 id="contact">Contact Us</h2>
+      <form>
+        <label for="email">Your Email</label>
+        <input type="text" name="email" />
+        <label for="subject">Choose subject</label>
+        <select name="subject" id="subject">
+          <option value="Purchase of product">Purchase of product</option>
+          <option value="Question about the company">
+            Question about the company
+          </option>
+          <option value="Opinion about website">Opinion about website</option>
+        </select>
+        <label for="message">Your message</label>
+        <textarea name="" id="mail-content" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+      </form>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
